@@ -102,6 +102,14 @@
 		top: 0;
 		transition: 1s;
 	}
+
+	.footer ul {
+		margin-left: 20%;
+	}
+
+	.footer ul li {
+		text-align: left;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -208,6 +216,15 @@
 			bottom: 0;
 			transition: 1s;
 		}
+
+		.footer ul {
+			margin-top: 50px;
+			margin-left: 31%;
+		}
+
+		.footer_logo {
+			font-size: 90px;
+		}
 }
 
 /* Extra Small Devices, Phones */
@@ -218,7 +235,9 @@
 		padding-top: 15px;
 	}
 
-
+	.footer ul li {
+		line-height: 35px;
+	}
 
 	.menu_btn span{
 		top: -15px;
@@ -270,7 +289,17 @@
 	}
 
 	
+	.footer ul {
+		margin-left: 18%;
+	}
 
+	.footer_logo {
+		font-size: 50px;
+	}
+
+	.footer ul {
+		padding-left: 50px;
+	}
 	
 }
 
