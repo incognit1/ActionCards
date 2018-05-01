@@ -1,0 +1,424 @@
+html {
+	height: 100%;
+}
+
+body{
+	font-family: "RalewayRegular", sans-serif;
+	font-size: 14px;
+	min-width: 320px;
+    overflow-x: hidden;
+}
+.p0{
+	padding: 0;
+}
+
+h2, h3, h4, h5, h6 {
+	font-family: 'RobotoLight', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000;
+	font-weight: bold;
+}
+
+h4{
+	font-size: 19px;
+	letter-spacing: 1px;
+}
+
+p, span {
+	font-family: 'RobotoLight', sans-serif;
+	color: #504f4d;
+	font-size: 19px;
+}
+
+i {
+	margin-right: 10px;
+}
+
+/*BUTTONS*/
+.my_btn{
+	background-color: #e84545;
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+.btn_md{
+	padding: 10px 30px;
+}
+.btn_lg{
+	padding: 15px 50px;
+}
+.soc_btn_grey{
+	border: 1px solid #c6cacc;
+	color:#c6cacc;
+	background-color: transparent;
+	width: 36px;
+    height: 36px;
+    font-size: 16px;
+}
+
+/*HEADER*/
+header{
+	height: 670px;
+	background: #3e3e3e;
+	transition: 1s;
+}
+
+/* header:before {
+	content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+    height: 172px;
+    background: url(../img/wave2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+nav{
+	height: 94px;
+	line-height: 94px;
+	z-index: 999;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+    background: #f3ecdf;
+}
+
+/* nav:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -79px;
+	height: 79px;
+	background: url('../img/wave.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+} */
+
+.menu{
+	list-style-type:none;
+	margin: 0;
+	padding: 0; 
+}
+.menu li{
+	display: inline-block;
+	padding: 0 30px;
+	line-height: 28px;
+}
+.menu li a{
+    color: #3e3e3e;
+    font-family: 'RobotoLight' , sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.menu li a:hover, .menu li a:focus{
+	text-decoration: none;
+	color: #000000;
+}
+
+.menu li + li{
+	border-left: 1px solid #3e3e3e;
+}
+
+.logo{
+	padding-top: 35px;
+}
+
+/*first start*/
+.title_block{
+	color: #fff;
+	text-align: center;
+	margin-top: 285px;
+	transition: 1s;
+
+}
+
+.title_block h1 {
+    font-family: 'MonteCristo', Impact, Arial;
+    transition: 1s;
+    font-size: 170px;
+    margin-bottom: 3px;
+    line-height: 85px;
+}
+
+.title_block p{
+	font-family: 'RobotoLight', Arial, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 24px;
+	margin-bottom: 50px;
+	color: #a6a6a6;
+
+}
+
+.title_block .slideInRight {
+	animation-delay: .5s !important;
+	animation-duration: 1.2s !important;
+}
+
+/*About start*/
+
+.about_s {
+	background: #f9f6f0;
+	padding-bottom: 100px;
+	position: relative;
+	overflow: hidden;
+}
+
+.about_s img {
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+h3 {
+	margin: 80px 0 70px 0;
+	letter-spacing: 7px;
+}
+
+.about_s p {
+	font-size: 21px;
+	font-weight: bold;
+	margin-left: 25px;
+	position: relative;
+	z-index: 1;
+
+}
+
+.about_s:before {
+	content: "";
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: #d0b0bc;
+    opacity: 0.4;
+    right: 0;
+    top: 0;
+    border-radius: 100%;
+    transform: translate(50%, -40%);
+}
+
+
+.about_s:after {
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: #d3d3d3;
+    opacity: 0.4;
+    right: 0;
+    bottom: 0;
+    border-radius: 100%;
+    transform: translate(50%, 40%);
+}
+
+
+/*About end*/
+
+
+
+
+/*PARAMS SECTION*/
+
+.params_img {
+    background: #ecdee3;
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.params_block{
+    text-align: center;
+    margin-bottom: 40px;
+    transition: 1s;
+    padding: 0px 25px;
+}
+
+.params_block img:hover {
+	animation: params 1s ease;
+}
+
+
+.params_block img{
+    font-size: 70px;
+    color: #e84545;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.params_block h3{
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+
+/*Params end*/
+
+/*Gallery start*/
+
+.gallery_s {
+	background: #f9f6f0;
+	padding: 0 0 100px 0;
+}
+
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallery_s img {
+	width: 100%;
+}
+
+.block {
+	text-align: center;
+	padding: 88px 30px 30px 30px;
+		height: 387px;
+}
+
+.block p {
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+.block span {
+	font-size: 71px;
+	letter-spacing: 15px;
+}
+
+.dark {
+	background: #3e3e3e;
+
+}
+
+.dark span, .dark p {
+	color: #fff !important;
+}
+
+
+.yellow {
+	background: #a99465;
+
+}
+
+.yellow span, .yellow p {
+	color: #3e3e3e;
+}
+
+.light {
+	background: #f3ecdf;
+}
+
+.light span, .light p {
+	color: #a99465;
+}
+
+/*Gallery end*/
+
+/*Testimonials start*/
+
+.testimonials_s {
+	background: #f3ecdf;
+	padding: 0 0 50px 0;
+}
+
+/*Testimonials end*/
+
+
+/*Footer start*/
+
+.footer {
+	background: #2c2d32;
+	padding: 73px 0 40px 0;
+}
+
+.footer ul {
+	list-style-type: none;
+}
+
+.footer ul li {
+	font-size: 22px;
+}
+
+.footer ul li a {
+	color: #fff;
+}
+
+.footer p, .footer h4, .footer span {
+	color: #fff;
+}
+
+.footer_logo {
+	font-family:  'MonteCristo', Impact, Arial;
+	font-size: 65px;
+	display: inline-block;
+    margin: 15px 0 45px 0;
+}
+
+.footer h4 {
+	text-align: left;
+	font-size: 24px;
+	letter-spacing: 5px;
+}
+
+.footer input {
+    font-size: 24px;
+    background: #f3ecdf;
+    border-radius: 3px 0 0 3px;
+    border: none;
+    padding: 10px;
+    font-weight: normal;
+    font-family: 'RobotoLight', Arial;
+    letter-spacing: 3px;
+    width: 333px;
+}
+
+.footer button {
+	background: #a99465;
+    border: none;
+    font-size: 30px;
+    padding: 5px 15px 7px 15px;
+    border-radius: 0 5px 5px 0;
+    position: relative;
+    left: -5px;
+}
+
+/*Footer end*/
+
+
+
+
+@keyframes circling {
+	from{
+		transform: rotateY(0deg);
+	}
+
+	to {
+		transform: rotateY(360deg);
+	}
+}
+
+@keyframes social {
+	from{
+		transform: rotate(0deg);
+		border-radius: 0px;
+	}
+
+	to {
+		transform: rotate(360deg);
+		border-radius: 100%;
+	}
+}
