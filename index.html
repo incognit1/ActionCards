@@ -6,12 +6,11 @@
 	<title>Action Cards</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
-
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="libs/fontawesome/fontawesome-all.css">
 
-	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/media.css" />
-	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/animate.css">
 
 	<script src="libs/wow/wow.min.js"></script>
@@ -21,6 +20,9 @@
 
 <body>
 	<header>
+		<div class="container-fluid">
+			<div id="particles-js"></div>
+		</div>
 		<nav>
 			<div class="container">
 				<div class="row">
@@ -175,14 +177,6 @@
 	</section>
 
 
-
-
-
-
-
-
-
-
 	<section class="testimonials_s" id="testimonials">
 		<div class="container">
 			<div class="row">
@@ -241,22 +235,15 @@
 
 	<script src="libs/jquery/jquery-2.1.4.min.js"></script>
 	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
-	<script>
-		jQuery(document).ready(function ($) {
-			// Scroll to the desired section on click
-			// Make sure to add the `data-scroll` attribute to your `<a>`          tag.
-			// Example: 
-			// `<a data-scroll href="#my-section">My Section</a>` will scroll to an element with the id of 'my-section'.
-			function scrollToSection(event) {
-				event.preventDefault();
-				var $section = $($(this).attr('href'));
-				$('html, body').animate({
-					scrollTop: $section.offset().top
-				}, 500);
-			}
-			$('[data-scroll]').on('click', scrollToSection);
-		}(jQuery));
-	</script>
+
+	<!-- scripts -->
+	<script src="libs/particles/particles.js"></script>
+	<script src="libs/particles/app.js"></script>
+
+	<!-- stats.js -->
+	<script src="libs/particles/stat.js"></script>
+	<script src="js/main.js"></script>
+
 </body>
 
 </html>
