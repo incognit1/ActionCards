@@ -26,6 +26,13 @@
 	.title_block {
 		margin-top: 300px;
 	}
+	
+	
+	.menu li {
+    display: inline-block;
+    padding: 0 25px;
+    line-height: 28px;
+}
 
 }
 
@@ -109,6 +116,11 @@
 
 	.footer ul li {
 		text-align: left;
+	}
+	
+	.navbar-right {
+    float: unset !important;
+    text-align: center;
 	}
 }
 
@@ -225,6 +237,9 @@
 		.footer_logo {
 			font-size: 90px;
 		}
+		
+		
+		
 }
 
 /* Extra Small Devices, Phones */
